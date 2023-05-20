@@ -1,0 +1,62 @@
+/*!Header  */
+.headerTop{
+    width:100%;
+    height: 80px;
+    padding:0 160px ;
+    background-color: #1C1E53;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 4;
+}
+.headerTop img {  
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+/* Navbar */
+.headerTop > div{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 48px;
+}
+.headerTop  ul{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    height: 100%;
+}
+.headerTop  ul  li{
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    color:#BBBBCB;
+    transition: 0.2s;
+}
+.headerTop  ul  li:hover{
+    color: #FFFFFF;
+}
+.headerTop  ul  li:nth-child(1){
+    color: #FFFFFF;
+}
+/* Button */
+.headerTop  button{
+    width: 185px;
+    height: 60px;
+    color: #FFFFFF;
+    font-size: 16px;
+    background-color:#1C1E53;
+    border-radius: 41px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 2px solid #F4F6FC33;
+}
+.headerTop button:hover{
+    background-color: #FCD980;
+    border: none;
+    color:#1B1C2B;
+}

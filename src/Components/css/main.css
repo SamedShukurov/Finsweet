@@ -1,0 +1,344 @@
+/*!Header Main  */
+.headerMain,
+.main-how-we-work {
+    z-index: 1;
+}
+
+/* none selectable img */
+img {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.headerMain {
+    height: 90vh;
+    padding: 0 160px;
+    background-color: #1C1E53;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerMain>div {
+    margin-top: 126px;
+}
+
+.headerMain>div>h4 {
+    font-weight: 600;
+    font-size: 54px;
+    width: 582px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.headerMain>div>h5 {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    width: 562px;
+    color: #FFFFFF;
+    margin-bottom: 48px;
+
+}
+
+.headerMain>div>div {
+    display: flex;
+    gap: 40px;
+}
+
+.headerMain>div>div>button {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.headerMain>div>div>button:nth-child(1) {
+    width: 230px;
+    height: 64px;
+    border-radius: 41px;
+    background-color: #FCD980;
+    color: #1B1C2B;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+}
+
+.headerMain>div>div>button:nth-child(1):hover {
+    background-color: #1C1E53;
+    color: #FFFFFF;
+    border: 2px solid #F4F6FC33;
+}
+
+.headerMain>div>div>button:nth-child(2) {
+    background-color: #1C1E53;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+}
+
+.headerMain>div>div>button:nth-child(2)>span {
+    margin-left: 16px;
+}
+
+.headerMain img {
+    width: 638px;
+}
+
+/*!Main How we work  */
+.main-how-we-work {
+    height: 90vh;
+    padding: 129px 165px;
+    background-color: #F4F6FC;
+    display: flex;
+    gap: 200px;
+}
+
+.main-how-we-work>div:nth-child(1) {
+    width: 405px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.main-how-we-work>div:nth-child(1) h4 {
+    font-weight: 600;
+    font-size: 48px;
+    color: #282938;
+}
+
+.main-how-we-work>div:nth-child(1) p {
+    opacity: 0.7;
+    font-weight: 400;
+    color: #282938;
+    font-size: 16px;
+}
+
+.main-how-we-work>div:nth-child(1) button {
+    width: 244px;
+    background-color: #F4F6FC;
+    border: none;
+    color: #2405F2;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+    cursor: pointer;
+}
+
+/* card */
+.card {
+    width: 303px;
+    height: 178px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card div {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card div img {
+    position: relative;
+}
+
+.card div h6 {
+    position: absolute;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 500;
+    user-select: none;
+}
+
+.card h4 {
+    font-weight: 500;
+    font-size: 32px;
+    color: #282938;
+    margin-top: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #282938;
+    opacity: 0.7;
+}
+
+/* left side of Main How we work  */
+.main-how-we-work>div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.main-how-we-work>div:nth-child(2)>div {
+    display: flex;
+    gap: 25px;
+}
+
+/*! Main View our projects  */
+.main-view-our-projects {
+    height: 140vh;
+    padding: 128px 160px;
+    display: flex;
+    gap: 64px;
+    flex-direction: column;
+}
+
+.main-view-our-projects>div:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.main-view-our-projects>div:nth-child(1) h4 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #282938;
+}
+
+.main-view-our-projects>div:nth-child(1) button {
+    width: 123px;
+    display: flex;
+    gap: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    color: #282938;
+    background-color: #FFFFFF;
+}
+
+/*! Cards */
+/* First */
+.main-view-our-projects>div:nth-child(2) {
+    display: flex;
+    gap: 32px;
+}
+
+.main-view-our-projects>div:nth-child(2)>div:nth-child(1) {
+    width: 843px;
+    position: relative;
+    height: 600px;
+}
+
+.main-view-our-projects>div:nth-child(2)>div:nth-child(1) img {
+    width: 843px;
+    z-index: 1;
+}
+
+.main-view-our-projects>div:nth-child(2)>div:nth-child(1) div {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: absolute;
+    top: 0px;
+    width: 396px;
+    padding: 0 32px;
+    padding-top: 312px;
+    z-index: 2;
+    height: 600px;
+    opacity: 0;
+    transition: 0.3s;
+    background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+}
+
+.main-view-our-projects>div:nth-child(2)>div:nth-child(1):hover div {
+    opacity: 1;
+}
+
+.main-view-our-projects>div:nth-child(2)>div:nth-child(1) div h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.main-view-our-projects>div:nth-child(2)>div:nth-child(1) div p {
+    font-size: 16px;
+    font-weight: 500;
+    width: 293px;
+    opacity: 0.8;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.main-view-our-projects>div:nth-child(2)>div:nth-child(1) div button {
+    border: none;
+    display: flex;
+    gap: 16px;
+    justify-content: flex-start;
+    cursor: pointer;
+    background: none;
+    color: #FCD980;
+}
+
+.main-view-our-projects>div:nth-child(2)>div:nth-child(2) {
+    width: 405px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 600px;
+}
+
+.main-view-our-projects-card {
+    width: 405px;
+    height: 284px;
+    position: relative;
+}
+
+.main-view-our-projects-card>img {
+    width: 414px;
+    position: absolute;
+    left: -9px;
+    z-index: 1;
+}
+
+.main-view-our-projects-card>div {
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+    transition: 0.3s;
+    padding: 129px 36px 45px 56px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+}
+
+.main-view-our-projects-card:hover>div {
+    opacity: 1;
+}
+
+.main-view-our-projects-card>div>h4 {
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: 600;
+    width: 213px;
+}
+
+.main-view-our-projects-card>div>button {
+    background: none;
+    border: none;
+    color: #FCD980;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 16px;
+    font-weight: 500;
+    gap: 16px;
+    cursor: pointer;
+}
+
+#main-view-our-projects-second-card img {
+    width: 405px;
+    left: 0px;
+}
+/*!Features  */
