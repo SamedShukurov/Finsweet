@@ -1,10 +1,17 @@
 import React from "react";
+//! Icons 
 import illustration from "../svg/Illustration.svg";
 import pointer from "../svg/pointer.svg";
 import card1 from "../svg/Card 1.svg";
 import card2 from "../svg/Card 2.svg";
 import card3 from "../svg/Card 3.svg";
-
+import peopleIcon from "../svg/People-icon.svg";
+import verifiedIcon from "../svg/Verified-icon.svg";
+import pensIcon from "../svg/Pens-icon.svg";
+import supportIcon from "../svg/Supports-icon.svg";
+import timerIcon from "../svg/timer-icon.svg";
+import handsWritingIcon from "../svg/Hands-on-approach-icon.svg";
+//!Css 
 import "../css/main.css";
 const main = () => {
   return (
@@ -118,7 +125,10 @@ const main = () => {
                 </button>
               </div>
             </div>
-            <div className="main-view-our-projects-card" id="main-view-our-projects-second-card">
+            <div
+              className="main-view-our-projects-card"
+              id="main-view-our-projects-second-card"
+            >
               <img src={card3} alt="card3" />
               <div>
                 <h4> Unisaas Website Design</h4>
@@ -130,7 +140,70 @@ const main = () => {
           </div>
         </div>
       </div>
-      <div className="main-features"></div>
+      <div className="main-features">
+        <h5>Features</h5>
+        <h4>Design that solves problems, one product at a time</h4>
+        <div>
+          <div>
+            <div className="main-features-card">
+              <img src={peopleIcon} alt="Icon 1" />
+              <h5>Uses Client First</h5>
+              <p>
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+                aliquam sed mi.
+              </p>
+            </div>
+            <div className="main-features-card">
+              <img src={verifiedIcon} alt="Icon 1" />
+              <h5>Two Free Revision Round</h5>
+              <p>
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+                aliquam sed mi.
+              </p>
+            </div>
+            <div className="main-features-card">
+              <img src={pensIcon} alt="Icon 1" />
+              <h5>Template Customization</h5>
+              <p>
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+                aliquam sed mi.
+              </p>
+            </div>
+          </div>
+          <div>
+            <div className="main-features-card">
+              <img src={supportIcon} alt="Icon 1" />
+              <h5>24/7 Support</h5>
+              <p>
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+                aliquam sed mi.
+              </p>
+            </div>
+            <div className="main-features-card">
+              <img src={timerIcon} alt="Icon 1" />
+              <h5>Quick Delivery</h5>
+              <p>
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+                aliquam sed mi.
+              </p>
+            </div>
+            <div className="main-features-card">
+              <img src={handsWritingIcon} alt="Icon 1" />
+              <h5>Hands-on approach</h5>
+              <p>
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+                aliquam sed mi.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
