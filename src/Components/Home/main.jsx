@@ -1,5 +1,5 @@
 import React from "react";
-//! Icons 
+//! Icons
 import illustration from "../svg/Illustration.svg";
 import pointer from "../svg/pointer.svg";
 import card1 from "../svg/Card 1.svg";
@@ -11,8 +11,10 @@ import pensIcon from "../svg/Pens-icon.svg";
 import supportIcon from "../svg/Supports-icon.svg";
 import timerIcon from "../svg/timer-icon.svg";
 import handsWritingIcon from "../svg/Hands-on-approach-icon.svg";
-//!Css 
-import "../css/main.css";
+import profileIcon from "../svg/Profile-icon.svg";
+import plusIcon from "../svg/+.svg";
+//!Css
+import "../css/Home_css/main.css";
 const main = () => {
   return (
     <>
@@ -202,6 +204,108 @@ const main = () => {
               </p>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="main-what-our-clients-say-about-us">
+        <div>
+          <h4>What our clients say about us</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed.</p>
+        </div>
+        <div>
+          <h4>
+            "The best agency we’ve worked with so far. They understand our
+            product and are able to add new features with a great focus."
+          </h4>
+          <div>
+            <div>
+              <img src={profileIcon} alt="profile" />
+              <div>
+                <h4>Jenny Wilson</h4>
+                <h5>Vice President</h5>
+              </div>
+            </div>
+            <div>
+              <button>
+                <div></div>
+              </button>
+              <button>
+                <div></div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="main-FAQ">
+        <div>
+          <h4>Frequently asked questions</h4>
+          <h5>Contact us for more info</h5>
+        </div>
+        <div>
+          <div>
+            <h4>01</h4>
+            <div>
+              <h4>How much time does it take?</h4>
+              <p className="main-FAQ-notActive">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              {/* main-FAQ-Active */}
+            </div>
+            <img src={plusIcon} alt="plusIcon" />
+          </div>
+          <hr />
+          <div>
+            <h4>02</h4>
+            <div>
+              <h4>What is your class naming convention?</h4>
+              <p className="main-FAQ-notActive">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              {/* main-FAQ-Active */}
+            </div>
+            <img src={plusIcon} alt="plusIcon" />
+          </div>
+          <hr />
+          <div>
+            <h4>03</h4>
+            <div>
+              <h4>How do you communicate?</h4>
+              <p className="main-FAQ-notActive">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              {/* main-FAQ-Active */}
+            </div>
+            <img src={plusIcon} alt="plusIcon" />
+          </div>
+          <hr />
+          <div>
+            <h4>04</h4>
+            <div>
+              <h4>I have a bigger project. Can you handle it?</h4>
+              <p className="main-FAQ-notActive">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              {/* main-FAQ-Active */}
+            </div>
+            <img src={plusIcon} alt="plusIcon" />
+          </div>
+          <hr />
+          <div>
+            <h4>05</h4>
+            <div>
+              <h4>How much time does it take?</h4>
+              <p className="main-FAQ-notActive">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              {/* main-FAQ-Active */}
+            </div>
+            <img src={plusIcon} alt="plusIcon" />
+          </div>
+          <hr />
         </div>
       </div>
     </>
