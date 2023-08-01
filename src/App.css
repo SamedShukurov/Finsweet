@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+/*! Resetting Css  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+img {
+    pointer-events: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+:root{
+    --padding-page:10% 10%;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*! All Pages's mini css */
+.Home,.About,.Features,.Pricing,.FAQ,.Blog,.Contact{
+    padding-top: 80px;
+}
+/*All buttons  */
+button:active{
+    transition: .3s ease;
+    scale: 0.99;
+}
