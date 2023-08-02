@@ -5,6 +5,7 @@
     padding: 10% 10%;
     gap: 30px;
     flex-direction: column;
+    transition: 0.5s ease;
 }
 .Card > img{
     width: 32px;

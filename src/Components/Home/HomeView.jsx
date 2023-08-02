@@ -9,9 +9,7 @@ const HomeView = () => {
     <div className="HomeView">
       <div className="HomeViewTitle">
         <h2>View our projects</h2>
-        <p>
-          View More <span>→</span>
-        </p>
+        <Link><p>View More <span>→</span></p></Link>
       </div>
       <div className="HomeViewContent">
         <div>

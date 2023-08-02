@@ -16,11 +16,14 @@
     line-height: 64px;
     color:#282938;
 }
-.HomeViewTitle > p{
+.HomeViewTitle >a> p{
     display: flex;
     gap: 20px;
     cursor: pointer;
     align-items: center;
+}
+.HomeViewTitle >a> p:hover{
+    opacity: 0.8;
 }
 .HomeViewContent {
     display: grid;
@@ -93,6 +96,7 @@
 }
 .HomeViewContent  > div:nth-child(1) >  div  a p{
     display: flex;
+    transition: .3s ease;
     gap: 20px;
     font-size: 0px;
     transition: .3s ease-out;
@@ -164,4 +168,12 @@
 .HomeViewContentMini:hover>div> a p{
     opacity: 1;
     font-size: 16px;
+}
+
+/* View project on hover */
+.HomeViewContent:hover  a  p:hover{
+    opacity: 0.5;
+}
+.HomeViewContentMini:hover   a p:hover{
+    opacity: 0.5;
 }

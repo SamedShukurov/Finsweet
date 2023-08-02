@@ -1,0 +1,109 @@
+.HomeClient{
+    height: 70vh;
+    background-color: #f4f6fc7a;
+    padding: 7%;
+    display: flex;
+    justify-content: space-between;
+}
+.HomeClientHeading{
+    width: 30%;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.HomeClientHeading > h1{
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    color: #282938;
+}
+.HomeClientHeading > p{
+    color: #282938;
+    opacity: 0.7;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+.HomeClientComments{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+.HomeClientComments > p{
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 500;
+}
+.HomeClientContent{
+    display: flex;
+    justify-content: space-between;
+}
+.HomeClientProfile{
+    display: flex;
+    gap: 20px;
+}
+.HomeClientProfile > div{
+    display: flex;
+    flex-direction: column;
+}
+.HomeClientProfile > div > h5{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #282938;
+}
+.HomeClientProfile > div > h6{
+    font-size: 12px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #282938;
+}
+.HomeClientButtons{
+    display: flex;
+    gap: 20px;
+}
+.HomeClientButtons button{
+    height: 48px;
+    width: 48.2px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.HomeClientButtons button div{
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-left: 40%; 
+    margin-right: auto; 
+    display: flex;
+    width: 15px;
+    height: 15px;
+    border-top: 4px solid #282938;
+    border-left: 4px solid #282938;
+    transform: rotate(-45deg);
+}
+.HomeClientButtons button:nth-child(1){
+    background-color: White;
+}
+.HomeClientButtons button:nth-child(1) div{
+    opacity: 0.6;
+}
+.HomeClientButtons button:nth-child(2){
+    transform: rotate(180deg);
+    background-color: #5239FA;
+}
+.HomeClientButtons button:nth-child(2) div{
+    border-top: 4px solid #FFFFFF;
+    border-left: 4px solid #FFFFFF;
+}
+/* Hover */
+
+.HomeClientButtons button:hover{
+    opacity: 0.8;
+}
