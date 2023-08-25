@@ -2,7 +2,6 @@ import React from "react";
 import "./card.css"
 
 const Card = (props) => {
-    console.log(props.bg)
   return (
     <div className="Card" style={props.bg}>
       <img src={props.data.img} alt="img" />

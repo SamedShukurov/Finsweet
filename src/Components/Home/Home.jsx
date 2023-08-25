@@ -5,6 +5,7 @@ import HomeWork from "./HomeWork";
 import HomeView from "./HomeView"
 import HomeFeatures from "./HomeFeatures";
 import HomeClient from "./HomeClient"
+import FAQ from  "../FAQ/FAQ"
 //*css
 import "./home.css";
 
@@ -21,6 +22,7 @@ const Home = () => {
       <HomeView/>
       <HomeFeatures/>
       <HomeClient/>
+      <FAQ/>
     </div>
   );
 };

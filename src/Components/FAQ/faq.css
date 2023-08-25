@@ -1,0 +1,118 @@
+.FAQ {
+    height: 100vh;
+    padding:10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.FAQHeading {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.FAQHeading > h1 {
+    width: 90%;
+    color: #282938;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+}
+.FAQHeading > a > p {
+    max-width: 100%;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #2405f2;
+    transition: 0.3s ease;
+}
+.FAQHeading > a{
+    max-width: 61%;
+}
+.FAQHeading > a > p:hover {
+    color: #282938;
+}
+.FAQContent {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+.FAQContent > hr {
+    border-top: 2px solid #ececf1;
+}
+
+/*! FAQQuestion */
+.FAQQuestion {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 3%;
+    padding-right: 0;
+    align-items: center;
+    transition: 0.5s ease;
+}
+.FAQQuestion > h3 {
+    color: #2405f2;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+/* content */
+.FAQQuestionContent {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.5s ease;
+}
+.FAQQuestionContent > h3 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    display: flex;
+    justify-content: space-between;
+    z-index:2;;
+}
+.FAQQuestionContent >h3 > img {
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.FAQQuestionContent >h3 > img.active{
+    transform: rotate(45deg);
+}
+.FAQQuestionContent > p {
+    position: absolute;
+    width: 100%;
+    font-weight: 500;
+    line-height: 32px;
+    font-size: 18px;
+    top: 0;
+    opacity: 0;
+    z-index:1;
+    transition: 0.2s ease;
+}
+
+
+.FAQQuestion:has(.active){
+    align-items: flex-start;
+    height: 150px;
+}
+p.active {
+    transition: 0.5s ease;
+    top: 50px;
+    opacity: 0.87;
+}
+@keyframes active {
+    0%{
+        top: 0;
+        opacity: 0;
+    }
+    100%{
+        top: 50px;
+        opacity: 0.87;
+    }
+}

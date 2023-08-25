@@ -3,8 +3,6 @@ import React from "react";
 import "../HeroSection/heroSection.css";
 import { Link } from "react-router-dom";
 const HomeHeader = (props) => {
-  console.log(props.data.img)
-  
   return (  
     <div className="heroSection">
       <div className="heroSectionContent">
