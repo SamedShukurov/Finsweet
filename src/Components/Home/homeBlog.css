@@ -1,0 +1,52 @@
+.HomeBlog {
+    width: 82%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 140px;
+}
+.HomeBlog > h2 {
+    font-size: 35px;
+}
+
+.HomeBlogCard {
+    height: 609px;
+    width: 405px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.HomeBlogCard > h4 {
+    font-size: 16px;
+    opacity: 0.7;
+    font-weight: medium;
+    color: #282938;
+}
+.HomeBlogCard > h2 {
+    color: #282938;
+}
+.HomeBlogCard > p {
+    color: #282938;
+    opacity: 0.7;
+}
+.HomeBlogCard > a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #282938;
+    transition: 0.5s ease;
+}
+.HomeBlogCard > a:hover{
+    color:#1B1C2B;
+    opacity: 0.8;
+}
+/* Cards */
+
+.HomeBlogCards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}

@@ -6,6 +6,8 @@ import HomeView from "./HomeView"
 import HomeFeatures from "./HomeFeatures";
 import HomeClient from "./HomeClient"
 import FAQ from  "../FAQ/FAQ"
+import HomeInquiry from "./HomeInquiry";
+import HomeBlog from "./HomeBlog";
 //*css
 import "./home.css";
 
@@ -23,6 +25,8 @@ const Home = () => {
       <HomeFeatures/>
       <HomeClient/>
       <FAQ/>
+      <HomeInquiry/>
+      <HomeBlog/>
     </div>
   );
 };

@@ -6,6 +6,7 @@ import { Link, useLocation } from "react-router-dom";
 const Header = () => {
   const location = useLocation();
   useEffect(() => {
+    // const contactUsBtn = document.querySelector(".contactUsHeader")
     const PagesPathName = [
       "/",
       "/about",
@@ -31,6 +32,16 @@ const Header = () => {
         navItem[index].style.color = "white";
       }
     }
+    // if (location.pathname === "/contact"){
+    // console.log(contactUsBtn.style);
+    //   // #fcd980
+    //   contactUsBtn.style.backgroundColor="#fcd980"
+    //   contactUsBtn.style.color="#1b1c2b"
+    // }
+    // else{
+    //   contactUsBtn.style.background="none"
+    //   contactUsBtn.style.color="white"
+    // }
   }, [location.pathname]);
 
   return (
@@ -70,7 +81,7 @@ const Header = () => {
           </li>
         </ul>
         <Link to="/contact">
-          <button>Contact us</button>
+          <button className="contactUsHeader">Contact us</button>
         </Link>
       </div>
     </div>

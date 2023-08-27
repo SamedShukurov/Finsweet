@@ -9,7 +9,7 @@ import Contact from "./Components/Contact us/Contact";
 //* Header
 import Header from "./Components/Header and Footer/Header";
 //* Footer
-
+import Footer from "./Components/Header and Footer/Footer";
 //* App css
 import "./App.css" 
 //! Importing Routes and route 
@@ -27,6 +27,7 @@ function App() {
             <Route path="/blog" element={<Blog/>}/>
             <Route path="/contact" element={<Contact/>}/>
           </Routes>
+          <Footer/>
         </div>
 }
 

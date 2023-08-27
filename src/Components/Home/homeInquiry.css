@@ -1,0 +1,121 @@
+/*! Card */
+.HomeInquiry{
+    height: 80vh;
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+/** filter */
+.HomeInquiryFilter{
+    top: 0;
+    left: 0;   
+    width: 100%;
+    height: 80vh;
+    background: #1C1E53;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 2;
+}
+/* svg design */
+.inquirySvg{
+    top: 0;
+    left: 0;
+    width: 50%;
+    position: absolute;
+}
+/** both side */
+.InquiryTitle ,.sendInquiry{
+    position: relative;
+    width: 50%;
+    z-index: 3;
+}
+/** left side */
+.InquiryTitle {
+    padding: 5% 7%;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.InquiryTitle > h1{
+    font-size: 50px;
+}
+.InquiryTitle > p{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/** right side */
+.sendInquiry{
+    background: #1C1E53;
+    padding: 5% 7%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sendInquiry > h3{
+    font-size: 24px;
+    font-weight: 400;
+}
+.sendInquiry > p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #F4F6FC;
+}
+.sendInquiry > form {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.sendInquiry > form input{
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    background: none;
+    border: 1.5px solid #ffffff18;
+    height: 64px;
+    padding: 0 7%;
+    border-radius: 8px;
+}
+.sendInquiry > form input::placeholder{
+    font-size: 16px;
+    color: #F4F6FC;
+    opacity: 0.5;
+}
+/* btn */
+.btnInquiry{
+    cursor: pointer;
+    border: none;
+    height: 64px;
+    background-color: #FCD980;
+    color: #1B1C2B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 41px;
+    font-size: 16px;
+    transition: 0.6s ease;
+}
+
+.btnInquiry:hover{
+    background: linear-gradient(123deg,#FCD980 0.111%,#ffe090a5,#f4f6fc8e);
+    color: white;
+}
+.sendInquiry a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color:white;
+    transition: 0.5s ease;
+    font-size: 18px;
+}
+.sendInquiry a:hover{
+    color: grey;
+}
