@@ -15,7 +15,7 @@ const Header = () => {
       "/faq",
       "/blog"
     ];
-    const navItem = document.querySelectorAll(".nav > li span");
+    const navItem = document.querySelectorAll(".headerContent > .nav > li span");
     // console.log(location.pathname);
     if (PagesPathName.entries(location.pathname)) {
       if(PagesPathName.indexOf(location.pathname) === -1){

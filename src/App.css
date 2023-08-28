@@ -13,8 +13,17 @@ img {
     -webkit-user-select: none;
     user-select: none;
 }
+/** used Colors (will be modified soon) */
 :root{
     --padding-page:10%;
+    --padding-left-and-right:0 10%;
+    --white:#FFFFFF;
+    --royal-blue:#2405F2;
+    --dark-blue:#282938;
+    --grey:#F4F6FC;
+    --yellow:#FCD980;
+    --tint-blue:#1C1E53;
+    --accent:#EEF4FA;
 }
 html{
     scroll-behavior: smooth;
@@ -25,6 +34,6 @@ html{
 }
 /*All buttons  */
 button:active{
-    transition: .3s ease;
+    transition: .2s ease;
     scale: 0.97;
 }

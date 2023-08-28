@@ -1,0 +1,103 @@
+/*! Footer */
+.Footer{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/** Hero */
+.FooterHero{
+    height: 50vh;
+    display: flex;
+    align-items: flex-end;
+    gap: 150px;
+    background: var(--tint-blue);
+    padding: var(--padding-left-and-right);
+}
+/* left side*/
+.FooterHero-contact{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 70%;
+}
+
+.FooterHero-contact > img{
+    width: 160px;
+}
+
+.FooterHero-contact > p{
+    width: 80%;
+    color: var(--white);
+    opacity: 0.8;
+}
+
+.FooterHero-contact > ul{
+    display: flex;
+    width: 100%;
+    background-color: var(--yellow);
+    padding:4% 6%;
+
+}
+.FooterHero-contact > ul.contacts{
+    gap: 30px;
+}
+.FooterHero-contact > ul.contacts > li{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.FooterHero-contact > ul.contacts > li > a{
+    color: var(--dark-blue);
+    opacity: 0.8;
+}
+/* right side */
+.FooterHero-socialMedia{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 20px;
+    justify-content: center;
+}
+.FooterHero-socialMedia>h1{
+    font-size: 45px;
+    color: var(--white);
+}
+.FooterHero-socialMedia>p{
+    color: var(--grey);
+    opacity: 0.8;
+    width: 75%;
+}
+.FooterHero-socialMedia>.socialIcons{
+    display: flex;
+    cursor: pointer;
+    gap: 30px;
+}
+/** Nav */
+.FooterContent {
+    height: 10vh;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.FooterContent>h2{
+    font-size: 16px;
+}
+.FooterContent>.nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.FooterContent>.nav  a{
+    transition: 0.5s ease;
+    color: var(--dark-blue);
+    font-size: 16px;
+}
+.FooterContent>.nav  a:hover{
+    color: var(--yellow);
+}

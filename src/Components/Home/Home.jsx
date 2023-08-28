@@ -15,11 +15,16 @@ const Home = () => {
   let data = {
     title: "Building stellar websites for early startups",
     paragrafh:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
-    img:require('../svg/Illustration home.svg').default
+    img:require('../svg/Illustration home.svg').default,
+    btn:"View our work",
+    btnTo:"/features"
+  }
+  let dp = {
+    display:"block"
   }
   return (
     <div className="Home">
-      <HeroSection data={data}/>
+      <HeroSection data={data} dp={dp}/>
       <HomeWork />
       <HomeView/>
       <HomeFeatures/>

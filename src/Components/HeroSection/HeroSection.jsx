@@ -11,8 +11,8 @@ const HomeHeader = (props) => {
           {props.data.paragrafh}
         </p>
         <div>
-            <Link to="/features"><button>View our work</button></Link>
-            <Link to="/pricing"><p>View Pricing <span>→</span></p></Link>
+            <Link to={props.data.btnTo}><button>{props.data.btn}</button></Link>
+            <Link to="/pricing" style={props.dp} ><p>View Pricing <span>→</span></p></Link>
         </div>
       </div>
       <img src={props.data.img} alt="illustration" />
